@@ -209,4 +209,4 @@ The frontend build performs TypeScript checking and creates an optimized Next.js
 The default configuration uses an in-memory H2 database, so data is lost whenever the backend restarts. For persistent deployment, replace the H2 datasource and dependency with a supported database such as PostgreSQL and add persistent storage for `uploads/`.
 
 Before deploying, also provide a production session/authentication strategy and replace the demo accounts and seeded passwords.
-# backend-hr
+
